@@ -1,11 +1,11 @@
-import React, { Component, useState } from "react";
+import React, { useState } from "react";
 
 import MenuItem from "../menu-item/menu-item.components";
 
 import "./directory.styles.scss";
 
 const Directory = () => {
-  const [sections, setSections] = useState([
+  const [sections] = useState([
     {
       title: "hats",
       imageUrl: "https://i.ibb.co/cvpntL1/hats.png",
