@@ -38,14 +38,14 @@ const SignIn = () => {
           type="email"
           value={email}
           handleChange={handleChange("email")}
-          label="email"
+          label="Email"
           required
         />
         <FormInput
           type="password"
           value={password}
           handleChange={handleChange("password")}
-          label="password"
+          label="Password"
           required
         />
         <div className="buttons">
