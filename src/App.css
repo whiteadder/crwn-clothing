@@ -10,3 +10,12 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.example::-webkit-scrollbar {
+  display: none;
+}
+
+/* Hide scrollbar for IE and Edge */
+.example {
+  -ms-overflow-style: none;
+}
